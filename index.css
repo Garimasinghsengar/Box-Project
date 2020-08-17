@@ -36,11 +36,18 @@ nav{
 #top-items-container{
     margin-top: 20px;
     font-size: 20px;
-    padding: 10px;
+    padding: 10px 0;
+    margin-left: -300px;
 }
 
 #top-items-container span{
-    padding: 0 5px;
+    padding: 0 10px;
+
+}
+
+.top-items{
+    opacity: 0.4;
+    color:black;
 
 }
 
@@ -69,7 +76,7 @@ main{
 }
 
 #main-left-section h1{
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -97,7 +104,7 @@ main{
 }
 
 #main-bottom-section{
-    margin-top:20px;
+    margin-top:60px;
     display: flex;
 
 }
@@ -127,4 +134,16 @@ main{
 
 #span2{
     font-size:14px;
+   
 }
+
+@media(max-width: 800px) {
+    nav{
+        display: none;
+    }
+    main {
+        width: 100%;
+    }
+  }
+
+
